@@ -1,0 +1,5 @@
+plot(pressure)
+title(main = "온도와 기압과의 관계", col.main = "dark blue")
+arrows(100, 200, 150, 10)
+text(110, 250, "temper & pressure", cex = 1.2, col = "blue")
+points(200,600, pch = 8, cex = 2)
